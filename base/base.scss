@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+$family-font: "Raleway", sans-serif;
+$title: "Modak", cursive;
+
+$breakpoint-mobile_small: 320px;
+$breakpoint-mobile_medium: 480px;
+$breakpoint-mobile: 600px;
+
+$primary-color: #11C0E7;
+$secondary-color: #D81159;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #11C0E7;
+}

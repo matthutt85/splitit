@@ -1,0 +1,22 @@
+@use "../Base/base.scss";
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    &_title {
+        font-size: 64px;
+        font-family: "Modak", cursive;
+    }
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
