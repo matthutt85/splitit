@@ -39,6 +39,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
+  display: none;
 }
 .content_popup--selector {
   display: flex;
@@ -61,17 +62,36 @@ body {
   transform: rotate(45deg);
   cursor: pointer;
 }
+.content_popup--selector--close:hover {
+  font-size: 40px;
+  top: 5px;
+}
 .content_popup--selector--button {
-  height: 40px;
-  width: 80px;
-  margin: 20px;
+  height: 35px;
+  width: 70px;
+  margin: 10px;
   border-radius: 10px;
   background-color: #115463;
   color: #eee;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .content_popup--selector--button:focus {
+  background-color: #11C0E7;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+}
+.content_popup--selector--continue {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
   background-color: green;
+  margin-top: 30px;
+  color: #eee;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.content_popup--selector--continue:focus {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
 }
