@@ -44,9 +44,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 300px;
   width: 200px;
   background-color: #D81159;
   border-radius: 15px;
   box-shadow: 0, 2px, 5px, 5px, white;
+  position: relative;
+}
+.content_popup--selector--check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.content_popup--selector--check {
+  position: relative;
+}
+.content_popup--selector--check--checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.content_popup--selector--close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  color: white;
+  transform: rotate(45deg);
+  cursor: pointer;
 }
