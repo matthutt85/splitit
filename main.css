@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -23,10 +25,10 @@ body {
 }
 
 .content {
-  height: 60vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -94,4 +96,47 @@ body {
 }
 .content_popup--selector--continue:focus {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #11C0E7;
+}
+
+.content_bill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.content_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.content_people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
 }
