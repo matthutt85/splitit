@@ -22,6 +22,8 @@ body {
 .header_title {
   font-size: 64px;
   font-family: "Modak", cursive;
+  color: #D81159;
+  font-weight: normal;
 }
 
 .content {
@@ -117,6 +119,7 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 20px;
+  text-align: center;
 }
 
 .content_button {
@@ -128,6 +131,7 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .content_people {
@@ -139,4 +143,21 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 15px;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.end_calculate {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D81159;
+  color: #eee;
+  font-size: 20px;
 }

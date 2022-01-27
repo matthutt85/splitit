@@ -1,0 +1,19 @@
+@use "../base/base.scss";
+
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    &_calculate {
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #D81159;
+        color: #eee;
+        font-size: 20px;
+    }
+}
